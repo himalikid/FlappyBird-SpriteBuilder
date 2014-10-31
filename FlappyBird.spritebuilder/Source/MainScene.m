@@ -166,7 +166,8 @@
         if (bush.position.x <= (-1 * bush.contentSize.width)) {
             bush.position = ccp(bush.contentSize.width, bush.position.y);
         }
-     
+    }
+    
         // move and loop the clouds
         for (CCNode *cloud in _clouds) {
             // move the cloud
