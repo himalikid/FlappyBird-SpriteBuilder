@@ -15,7 +15,7 @@
     NSArray *_grounds;
     
     CCNode *_cloud1;
-    CCNode *_cloud2:
+    CCNode *_cloud2;
     NSArray *_clouds;
     
     CCNode *_bush1;
