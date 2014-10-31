@@ -218,7 +218,6 @@
     [self gameOver];
     return TRUE;
 }
-
 -(BOOL)ccPhysicsCollisionBegin:(CCPhysicsCollisionPair *)pair character:(CCNode *)character goal:(CCNode *)goal {
     [goal removeFromParent];
     points++;
